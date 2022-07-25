@@ -1,0 +1,198 @@
+{
+  "mac": {
+    "summary": {
+      "header": "The most delicious food in MAC!",
+      "desc": "You can always taste the best grechka and goulash. Drink uzvar and gorilka!"
+    },
+    "menu": [
+      {
+        "id": "m1",
+        "name": "Kasha grechka",
+        "description": "Only selected grains, without black grains!",
+        "price": 3.5
+      },
+      {
+        "id": "m2",
+        "name": "Goulash",
+        "description": "Meat from a young bull that ran just yesterday",
+        "price": 6.8
+      },
+      {
+        "id": "m3",
+        "name": "Makarony",
+        "description": "Dough made from wheat that grew in the Kherson steppes before the occupation!",
+        "price": 2.8
+      },
+      {
+        "id": "m4",
+        "name": "Golubci",
+        "description": "Healthy...and green...",
+        "price": 3.7
+      }
+    ]
+  },
+  "kfc": {
+    "summary": {
+      "header": "Don't look at this Mac, we have the same, only better!",
+      "desc": "We do not deliver to your home, we come and cook in your kitchen!"
+    },
+    "menu": [
+      {
+        "id": "k1",
+        "name": "Potato",
+        "description": "Finest potato from the mother-in-law's garden",
+        "price": 3.2
+      },
+      {
+        "id": "k2",
+        "name": "Biff",
+        "description": "It was handed to us from America!",
+        "price": 2.2
+      },
+      {
+        "id": "k3",
+        "name": "Sumbir Burger",
+        "description": "Cutlet from the Sambir cow",
+        "price": 5.7
+      },
+      {
+        "id": "k4",
+        "name": "Salat",
+        "description": "Grown in a cook on the balcony",
+        "price": 3.9
+      }
+    ]
+  },
+  "big-burger": {
+    "summary": {
+      "header": "Our dishes are for those who like to eat",
+      "desc": "You will leave us as well-fed as you did not leave your grandmother. You will burn these calories for months, but it will be worth it"
+    },
+    "menu": [
+      {
+        "id": "b1",
+        "name": "Holodec",
+        "description": "Сlear as glass",
+        "price": 5.2
+      },
+      {
+        "id": "b2",
+        "name": "Krovianka",
+        "description": "As once in the village at a wedding!",
+        "price": 6.8
+      },
+      {
+        "id": "b3",
+        "name": "Salo z chasnykom",
+        "description": "Without the words...",
+        "price": 4.7
+      },
+      {
+        "id": "b4",
+        "name": "Solinnja",
+        "description": "And the gorilka goes well",
+        "price": 3.5
+      }
+    ]
+  },
+  "tasty-burger": {
+    "summary": {
+      "header": "Delicious Food, Delivered from Kavkaz",
+      "desc": "Choose your favorite meal from our broad selection of available meals and enjoy a delicious lunch or dinner at home."
+    },
+    "menu": [
+      {
+        "id": "t1",
+        "name": "Shahlyk",
+        "description": "Finest potato and souse",
+        "price": 6.1
+      },
+      {
+        "id": "t2",
+        "name": "Hachapuri",
+        "description": "Georgian cakes with stuffing",
+        "price": 7.55
+      },
+      {
+        "id": "t3",
+        "name": "Kebab",
+        "description": "\nIt is prepared from lamb, with minced onion",
+        "price": 5.5
+      },
+      {
+        "id": "t4",
+        "name": "Lavash",
+        "description": "White bread in the form of a thin crust made of wheat flour",
+        "price": 3.2
+      }
+    ]
+  },
+  "requests": [
+    {
+      "items": [
+        {
+          "id": "k2",
+          "name": "Biff",
+          "amount": 1,
+          "price": 2.2
+        },
+        {
+          "id": "k3",
+          "name": "Sumbir Burger",
+          "amount": 1,
+          "price": 5.7
+        }
+      ],
+      "totalAmount": 7.9,
+      "userData": {
+        "name": "Oleh",
+        "email": "oleg_bob@ukr.net",
+        "phone": "+380676733950",
+        "address": ""
+      },
+      "id": 1
+    },
+    {
+      "items": [
+        {
+          "id": "m4",
+          "name": "Golubci",
+          "amount": 2,
+          "price": 3.7
+        },
+        {
+          "id": "m3",
+          "name": "Makarony",
+          "amount": 2,
+          "price": 2.8
+        }
+      ],
+      "totalAmount": 13,
+      "userData": {
+        "name": "Nastia",
+        "email": "testuser@tyroo.de",
+        "phone": "+38 (095) 294-37-67",
+        "address": ""
+      },
+      "id": 2
+    },
+    {
+      "items": [
+        {
+          "id": "m1",
+          "name": "Kasha grechka",
+          "amount": 1,
+          "price": 3.5
+        }
+      ],
+      "totalAmount": 3.5,
+      "userData": {
+        "name": "Bachelor",
+        "email": "testuser@tyroo.de",
+        "phone": "+380676733950",
+        "address": "Львів, Львівська область, Україна, 790"
+      },
+      "id": 3
+    }
+  ]
+}

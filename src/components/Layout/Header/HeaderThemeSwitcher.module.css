@@ -1,0 +1,22 @@
+.switcher {
+  border: none;
+  background-color: #4d1601;
+  width: 4rem;
+  display: flex;
+  border-radius: 25px;
+}
+
+.innerSwitcher {
+  background-color: #a07d6f;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.outLightTheme {
+  background-color: #a07d6f;
+  justify-content: end;
+}
+
+.innerLightTheme {
+  background-color: #4d1601;
+}

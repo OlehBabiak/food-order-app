@@ -1,0 +1,13 @@
+.home {
+  display: grid;
+  height: fit-content;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, auto));
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.image {
+  width: 20rem;
+  height: 20rem;
+  object-fit: contain;
+}

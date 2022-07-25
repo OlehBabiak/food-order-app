@@ -1,0 +1,18 @@
+.app-add-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-add-form input {
+  width: 350px;
+  margin: 5px 20px 5px 20px;
+  border: 1px solid #8a2b06;
+  border-radius: 5px;
+  padding-left: 0.5rem;
+  height: 35px;
+}
+
+.error-message {
+  color: red;
+  margin-left: 20px;
+}

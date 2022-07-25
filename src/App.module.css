@@ -1,0 +1,9 @@
+.dark {
+  background-color: #383838;
+  transition: 0.5s;
+}
+
+.light {
+  background-color: white;
+  transition: 0.5s;
+}
