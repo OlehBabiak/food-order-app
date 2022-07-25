@@ -1,7 +1,7 @@
 import { ApiPath, HttpMethod, ContentType } from "../../common/enums/enums";
 
 class FoodAppService {
-  _apiBase = "http://localhost:8000";
+  _apiBase = "https://food-order-lviv.herokuapp.com";
 
   getResource = async (url) => {
     let res = await fetch(url);
